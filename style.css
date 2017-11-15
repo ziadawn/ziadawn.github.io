@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #FFF8DC;
+}
+
+nav div {
+    /*display: flex;*/
+    background-color: grey;
+    /*width: 100%;*/
+    /*position: fixed;*/
+    /*align-content: flex-start;*/
+    padding: 5px;
+    color: #FFF8DC;
+    /*justify-content: space-around;*/
+}
+
+main img:first-child {
+    width: 100%;
+    height: auto;
+}
+
+nav div:first-child {
+    display: flex;
+    position: fixed;
+    font-size: 40px;
+    padding: 5px;
+    /*z-index: 1;*/
+    /*background-color: grey;*/
+    /*width: 100%;*/
+}
+
+nav div:nth-child(2) {
+    display: flex;
+    padding: 2px;
+    justify-content: flex-end;
+    position: fixed;
+    /*z-index: 1;*/
+    color: #FFF8DC;
+}
+
+main img:nth-child(2) {
+    border-radius: 50px;
+}
